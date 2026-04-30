@@ -31,8 +31,6 @@ ShuffleNet 核心架构为**多阶段堆叠式轻量化卷积神经网络**，�
 我们使用的是数据集 CIFAR-10，是一个更接近普适物体的彩色图像数据集。CIFAR-10 是由 Hinton 的学生 Alex Krizhevsky 和 Ilya Sutskever 整理的一个用于识别普适物体的小型数据集。一共包含 10 个类别的 RGB 彩色图片：飞机（ airplane ）、汽车（ automobile ）、鸟类（ bird ）、猫（ cat ）、鹿（ deer ）、狗（ dog ）、蛙类（ frog ）、马（ horse ）、船（ ship ）和卡车（ truck ）。每个图片的尺寸为 32 × 32 ，每个类别有 6000 个图像，数据集中一共有 50000 张训练图片和 10000 张测试图片。
 数据集链接为：https://www.cs.toronto.edu/~kriz/cifar.html
 
-它不同于我们常见的图片存储格式，而是用二进制优化了储存，当然我们也可以将其复刻出来为 PNG 等图片格式，但那会很大，我们的目标是神经网络，这里不做细致解析数据集，如果你想了解该数据集请观看链接：https://cloud.tencent.com/developer/article/2150614
-
 ---
 
 ## Introduction
@@ -62,8 +60,6 @@ The architecture pioneered the classic **Channel Shuffle** design, perfectly sol
 We used the CIFAR-10 dataset, a color image dataset that more closely approximates common objects. CIFAR-10 is a small dataset for recognizing common objects, compiled by Alex Krizhevsky and Ilya Sutskever. It contains RGB color images for 10 categories: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, and truck. Each image is 32 × 32 pixels, with 6000 images per category. The dataset contains 50,000 training images and 10,000 test images.
 
 The dataset link is: https://www.cs.toronto.edu/~kriz/cifar.html
-
-It differs from common image storage formats, using binary-optimized storage. While we could recreate it as PNG or other image formats, that would result in a very large file size. Our focus is on neural networks, so we won't delve into a detailed analysis of the dataset here.
 
 ---
 ## 原文章 | Original article
