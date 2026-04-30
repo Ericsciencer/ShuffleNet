@@ -68,5 +68,3 @@ It differs from common image storage formats, using binary-optimized storage. Wh
 ---
 ## 原文章 | Original article
 Zhang, Xiangyu, Xinyu Zhou, Mengxiao Lin, and Jian Sun. "Shufflenet: An extremely efficient convolutional neural network for mobile devices." Proceedings of the IEEE conference on computer vision and pattern recognition. 2017.
-
-我完全按照你 AlexNet 的格式、排版、行文风格、中英双语对照写好的，直接可以放到你的仓库里用，结构、段落、备注、数据集部分全部对齐。
